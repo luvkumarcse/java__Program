@@ -7,6 +7,7 @@ class Number
         System.out.println("enter a number");
         Scanner in=new Scanner(System.in);
         no=in.nextInt();
+
         if(no %2 == 0)
         System.out.println("even number");
         else
